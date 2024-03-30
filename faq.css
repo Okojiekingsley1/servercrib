@@ -1,0 +1,422 @@
+.infoparent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+  gap: 1rem; 
+  background-color: black;
+  height: 30px;
+  padding: 50px;
+  
+}
+.serv{
+  /* height: 150px; */
+  width: 200px;
+}
+p{
+  font-size: 18px;
+}
+.number , .email, .location{
+  display: flex;
+  align-items: start;
+	color: white;
+}
+.search{
+  display: none;
+}
+@media (max-width:576px)  {
+  .infoparent{
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+  /* Styles for iPads in portrait mode */
+  .search{
+    display: flex;
+  }
+}
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+	font-size: 20px;
+	align-items: center;
+	justify-content: space-even;
+}
+.header .dropbtn{
+	color: white;
+	font-size: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+.btn_1{
+	height: 50px;
+	font-size: 20px;
+}
+
+.header ul {
+  list-style: none; /* Remove default list styles */
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align items with space between */
+  align-items: center; /* Center items vertically */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.header ul li {
+  margin: 0 10px; /* Add some spacing between list items */
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown button */
+.dropbtn {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown .drop-text{
+	white-space: nowrap;
+	color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* top: calc(100% + 10px); Adjusted position */
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 9s ease; /* Smooth transition */
+  margin-top: 5px; /* Adjusted position */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1; /* Make the dropdown visible */
+transition: opacity 0.3s ease; /* Apply transition */
+}
+
+@media (max-width:576px ) {
+  .dropdown:hover .dropdown-content {
+      display: flex;
+    }
+}
+
+.btn_select_parent{
+  gap: 10px;
+  display: flex;
+  margin-right: 0px;
+}
+.btn_select_parent{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_1{
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 5px 21px;
+  color: #fff;
+  margin-right: 10px;
+}
+.second .sec{
+	height: 40px;
+  width: 70px;
+}
+.sec option{
+  
+  width: 150px;
+}
+.all{
+  display: flex;
+}
+.link{
+  display: block;
+  height: 70px;
+  width: 750px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bolder;
+  color: black;
+}
+h1{
+  font-size: 50px;
+  margin: 80px;
+}
+.set1 img{
+  width: 200px;
+  margin-left: 60px;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.set{
+  display: flex;
+}
+button{
+	background: green;
+	color: black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+  margin-left: 90px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+button:hover{
+	background: transparent;
+	border: 2px solid black;
+	cursor: pointer;
+}
+.fa-solid{
+  margin-left: 20px;
+}
+/* margin right */
+.active .sub-menu-1{
+  margin-left: 50px;
+}
+.over{
+  color: white;
+  background-color: green;
+  font-size: 35px;
+  margin-left: 40px;
+  display: inline-block;
+}
+.sub-menu-1{
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+.sub-menu-1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  word-spacing: 2px;
+  font-family: arial;
+  font-weight: lighter;
+  white-space: nowrap;
+  border-left: 7px solid green;
+}
+.this{
+  margin-top: 5px;
+}
+
+
+/*footer*/
+footer{
+	width:100%;
+	position: absolute;
+	bottom: -2000px;
+	background: green;
+	color: #fff;
+	padding: 100px 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.row{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.col{
+	flex-basis: 25%;
+	padding: 10px;
+	font-family: arial;
+  font-size: 15px;
+}
+/*.col p{
+	color: darkorange;
+	font-family: roboto;
+	left: 80px;
+}*/
+.col a{
+	color: white;
+	font-family: roboto;
+}
+.col li a{
+  font-size: 20px;
+  letter-spacing: normal;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+.col h4{
+	color: darkorange;
+	font-family: roboto;
+} 
+
+.col h3{
+	width:fit-content;
+	margin-bottom: 40px;
+  margin-left: 250px;
+	position: relative;
+	font-family: roboto;
+  margin-left: 0;
+}
+.col:nth-child(2), .col:nth-child(3){
+	flex-basis: 15%;
+}
+.email-id{
+	width: fit-content;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0;
+}
+ul li{
+	list-style:none;
+	margin-bottom: 12px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+form{
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 50px;
+}
+form .far{
+	font-size: 18px;
+	margin-right: 10px;
+}
+form input{
+	width: 100%;
+	background: transparent;
+	color: #ccc;
+	border:0;
+	outline: none;
+}
+form button{
+	background: transparent;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+form button .fas{
+	font-size: 16px;
+	color:#ccc;
+}
+.social-icons .fab{
+	width:30px;
+	height:40px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: green;
+	background: white;
+	margin-right: 15px;
+	cursor: pointer;
+  margin-top: 10px;
+}
+.social-icon-foot .fab{
+	width:40px;
+	height:40px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: green;
+	background: white;
+	cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.social-icon-foot {
+  margin-right: 40px;
+}
+ hr{
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	margin: 20px auto;
+} 
+.underline{
+	width: 280%;
+	height:1px;
+	background: white;
+	border-radius: 3px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	overflow: hidden;
+}
+.underline span{
+	width: 15px;
+	border-radius: px;
+	position: absolute;
+}
+.left-foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copy{
+  margin-left: 50px;
+}
+
+
+
+
+@media(max-width:500px){
+  body{
+    background-color:;
+
+  }
+  .menu-bar ul li{
+  	display: column;
+  	flex-direction: column;
+  	align-items: center;
+  }
+}
+
+

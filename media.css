@@ -11,9 +11,8 @@ body{
   justify-content: space-evenly;   
   gap: 5rem; 
   background-color: black;
-  height: 30px;
+  height: 22px;
   padding: 50px;
-  
 }
 .serv{
   /* height: 150px; */
@@ -67,16 +66,16 @@ p{
 }
 
 .header ul {
-  list-style: none; /* Remove default list styles */
-  display: flex; /* Use flexbox */
-  justify-content: space-between; /* Align items with space between */
-  align-items: center; /* Center items vertically */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  list-style: none; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 0; 
+  padding: 0; 
 }
 
 .header ul li {
-  margin: 0 10px; /* Add some spacing between list items */
+  margin: 0 10px;
 }
 
 .header ul li a {
@@ -87,7 +86,6 @@ p{
   position: relative;
   display: inline-block;
 }
-
 
 /* Dropdown button */
 .dropbtn {
@@ -403,17 +401,31 @@ img{
 
 
 .active .over{
-  margin-left: -350px;
+  margin-left: -550px;
+  max-width: 200px;
+  border-radius: 5px;
+}
+.active .overs{
+  margin-left: -400px;
+  max-width: 200px;
   border-radius: 5px;
 }
 .active .sub-menu-1{
-  margin-left: -350px;
-  
+  margin-left: -550px;
+}
+.active .sub-menu-2{
+  margin-left: -400px;
 }
 .over{
   color: white;
   background-color: green;
   font-size: 35px;
+}
+.overs{
+  color: white;
+  background-color: green;
+  font-size: 35px;
+  white-space: nowrap;
 }
 .sub-menu-1{
   display: block;
@@ -421,6 +433,21 @@ img{
   margin-top: 45px;
 }
 .sub-menu-1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  word-spacing: 2px;
+  font-family: arial;
+  font-weight: lighter;
+  white-space: nowrap;
+  border-left: 7px solid green;
+}
+.sub-menu-2{
+  display: block;
+  text-align: left;
+  margin-top: 45px;
+}
+.sub-menu-2 a{
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -446,9 +473,6 @@ our{
   font: 40px;
   font-family: arial;
 }
-/*  */
-
-
 
 
 /*footer*/

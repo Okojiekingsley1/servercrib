@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; 
+}
+
 .infoparent{
   display: flex;
   align-items: center;
@@ -157,78 +164,208 @@ p{
 }
 
 /* body */
-.container {
-	max-width: 500px;
-	margin: 50px auto;
-	padding: 20px;
-	background-color: #fff;
-	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1{
+  color: green;
+  font-size: 40px;
+}
+.ict{
+  color: gray;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.h{
+  margin-left: 50px;
+}
+.crib{
+  margin-left: 50px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.prove{
+  word-spacing: 2px;
+}
+.asset{
+  height: 290px;
+  width: 290px;
+  margin-left: 300px;
 }
 
-h2 {
-	text-align: center;
-	font-size: 30px;
-	margin-left: -300px;
-}
-.all-form{
-	display: block;
-}
-.form-group {
-	margin-bottom: 20px;
-}
-.form-group input{
-	height: 90px;
-}
-.form-group ::placeholder{
-	font-size: 20px;
-}
-.form-group, placeholder{
-	font-size: 20px;
+.section-grid{
+  /* padding: 40px; */
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-select {
-	width: 100%;
-	padding: 10px;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-}
-
-button{
-	background: green;
-	color: black;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s;
-  margin-left: 5px;
-  margin-top: 20px;
-  font-size: 20px;
-}
-button:hover{
-	background: transparent;
-	border: 2px solid black;
-	cursor: pointer;
-}
-.fa-solid{
-  margin-left: 20px;
+.grid{
+  background-color: #80d0e4;
+  padding: 20px;
 }
 
 
+.card-grids{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 2.5rem;
+  padding: 20px;
+}
 
+@media (max-width:900px) {
+  .card-grids{
+  grid-template-columns: repeat(1 , 1fr);
+
+  }
+}
+
+.card{
+line-height: 22px;
+background: #1c5e50;
+padding: 20px;
+}
+
+.card > h2{
+  margin-bottom: 20px;
+}
+h2 > a{
+  text-decoration: none;
+  color: black;
+}
+
+.card > p{
+  width: 100%;
+}
+
+.icon{
+  display: flex;
+}
+
+.control{
+  margin: 100px;
+}
+
+.lower-grid{
+  display: flex;
+  padding: 20px;
+  gap: 2rem;
+}
+
+
+.vision-card , .mission-card , .promise-card {
+  border: black solid 1px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.btn2-papa{
+  justify-content: center;
+  text-align: right;
+}
+
+/* 
+.scroll-img-pikin{
+  opacity: 0.5;
+
+} */
+
+.scroll-papa{
+  color: rgb(255, 255, 255);
+  padding-top: 70px;
+  padding-left: 20px;
+  height: 400px;
+  background-image: url(images/s5.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  line-height: 30px; 
+  background: #000; 
+}
+
+.scroll-papa > h2 {
+  font-size: 36px;
+  
+}
+
+.scroll-papa > p {
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+
+.scroll-text-grandpikin{
+  /* display: flex; */
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+}
+.scroll-text-grandpikin-child {
+  display: flex;
+}
+
+.control-client{
+  padding: 40px;
+  background-color: #1c5e50;
+
+}
+.clients{
+  background-color: #1c5e50;  
+}
+.clients-contain{
+  padding-left: 20px;
+}
+
+.text-clients{
+  font-size: 36px;
+}
+
+.text-clients-child{
+  font-size: 24px;
+}
+
+.scrolling-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* marquee */
+.marquee {
+	white-space: wrap;
+	background-size: contain;
+	overflow: hidden;
+	width: 2000px;
+	height: 180px; /* Adjust according to your needs */
+}
+
+.marquee img {
+	display: inline-block;
+	margin-right: 20px; /* Adjust the spacing between images */
+	animation: marquee 60s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes marquee {
+	from { transform: translateX(100%); }
+	to { transform: translateX(-100%); }
+}
+.gallery-container {
+  overflow: hidden;
+}
+
+.gallery {
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+
+.gallery img {
+  display: inline-block;
+  width: 400px; /* Adjust image width as needed */
+  height: 200px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust spacing between images */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
 /*footer*/
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -1500px;
+	bottom: -2700px;
 	background: green;
 	color: #fff;
 	padding: 100px 0 30px;
@@ -395,17 +532,3 @@ form button .fas{
   	align-items: center;
   }
 }
-/* map {
-  height: 400px;
-  width: 100%;
-}
-
-h1{
-  font-family: arial;
-}
-.spoc{
-  display: block;
-}
-.all-spoc{
-  display: flex;
-} */

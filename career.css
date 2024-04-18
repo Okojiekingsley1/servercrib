@@ -477,7 +477,7 @@ h2{
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -1400px;
+	bottom: -3000px;
 	background: green;
 	color: #fff;
 	padding: 100px 0 30px;
@@ -648,7 +648,7 @@ form button .fas{
   footer{
     width:100%;
     position: absolute;
-    bottom: -4000px;
+    bottom: -8000px;
     background: green;
     color: #fff;
     padding: 100px 0 30px;
@@ -660,8 +660,11 @@ form button .fas{
   .active .this a{
     color: green;
     text-decoration: none;
-    margin-left: 150px;
+    margin-left:;
     font-size: 20px;
+  
+  }
+  .active .com{
   
   }
 }
@@ -673,7 +676,15 @@ form button .fas{
 }
 @media(max-width:500px){
   .com{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 20px;
   }
+}
+@media(max-width:100px){
+.pi{
+  height: 480px;
+  width: 460px;
+  margin-left: -70px;
+  margin-top: -180px;
+	}
 }

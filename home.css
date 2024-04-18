@@ -671,14 +671,24 @@ form button .fas{
 .copy{
   margin-left: 50px;
 }
-
-
+/*  */
+@media(max-width:500px){
+footer{
+	width:100%;
+	position: absolute;
+	bottom: -5720px;
+	background: green;
+	color: #fff;
+	padding: 100px 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+}
+}
 
 
 @media(max-width:500px){
   body{
     background-color:;
-
   }
   .menu-bar ul li{
   	display: column;

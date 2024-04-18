@@ -317,192 +317,6 @@ transition: opacity 0.3s ease; /* Apply transition */
 /*end of head*/
 /*body*/
 
-.company{
-  font-family: arial;
-  margin-left: 40px;
-  font-size: 70px;
-  font-weight: bold;
-  margin-top:50px;
-	margin-bottom: 20px;
-  margin-left: 200px;
-}
-.side-text{
-  font-family: arial;
-  font-size: 20px;
-}
-.boxe{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-.carde{
-	height: 150px;
-	width: 235px;
-	padding: 10px 35px;
-	background: lightgray;
-  border-left: solid;
-  border-left-color: blue;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-  margin-right: 150px;
-  margin-bottom: 50px;
-}
-.prat{
-	color: black;
-	font-size: 20px;
-	line-height: 27px;
-	margin-bottom: 35px;
-}
-.text{
-  margin-top: -40px;
-}
-.text-2{
-  font-family: roboto;
-  line-height: 20px;
-  margin-left: -80px;
-}
-h3{
-  margin-left: 130px;
-  font-size: 28px;
-  font-family: arial;
-  text-decoration: none;
-}
-.serv{
-  text-decoration: none;
-}
-.para{
-  font-family: arial;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 130px;
-  letter-spacing: 1px;
-}
-.para-with{
-	display: flex;
-}
-.hand{
-	height: 200px;
-	width: 450px;
-	margin-left: 80px;
-}
-.message{
-  font-size: 30px;
-  font-weight: bolder;
-}
-.ayo{
-  color: gray;
-  font-size: 20px;
-  margin-left: 130px;
-  margin-top: 20px;
-}
-.message-ayo{
-  font-family: arial;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 130px;
-  letter-spacing: 1px;
-}
-.client{
-  font-family: arial;
-  font-size: 30px;
-  margin-left: 130px;
-  font-weight: bolder;
-}
-.message-client{
-  color: gray;
-  margin-left: 130px;
-  margin-top: 20px;
-  font-size: 25px;
-  font-weight: bolder;
-  letter-spacing: 1px;
-  font-family: arial;
-}
-.imessage{
-	display: block;
-}
-.overall-message{
-	display: flex;
-}
-.ehi{
-	width: 650px;
-	height: 650px;
-	margin-left: 150px;
-	margin-top: -300px;
-}
-
-
-
-
-.box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 300px;
-  height: 100px;
-  background: lightgray;
-
-}
-.card{
-	height: 200px;
-	width: 350px;
-	padding: 10px 35px;
-	background: #fff;
-  border: 1px solid;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-}
-.card i{
-	font-size: 25px;
-	display: block;
-	text-align: center;
-	margin: 25px 0px;
-	color: green;
-}
-.pra p{
-	color: black;
-	font-size: 17px;
-  text-align: left;
-  font-family:  Arial, sans-serif;
-}
-.list li{
-  list-style: none;
-}
-.vision-p{
-  letter-spacing: -1px;
-}
-.be{
-  margin-top: 14px;
-  font-size: 17px;
-  text-align: left;
-}
-.go{
-  margin-top: 14px;
-  font-size: 17px;
-  text-align: left;
-}
-.enable{
-  margin-top: 14px;
-  font-size: 17px;
-  text-align: left;
-}
-.peace{
-  margin-top: 10px;
-}
-.vision{
-  font-size: 30px;
-  color: black;
-  margin-left:25px;
-}
-
-.icon_contain{
-  display: flex;
-  align-items: center;
-}
 
 
 
@@ -590,6 +404,7 @@ img{
   white-space: nowrap;
   border-left: 7px solid green;
 }
+/*  */
 .sub-menu-2{
   display: block;
   text-align: left;
@@ -779,14 +594,106 @@ form button .fas{
 .copy{
   margin-left: 50px;
 }
+/*  */
+@media(max-width:500px){
+footer{
+	width:100%;
+	position: absolute;
+	bottom: -3500px;
+	background: green;
+	color: #fff;
+	padding: 100px 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+}
+}
 
-
-
+@media(max-width:500px){
+h1{
+  margin-left: ;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.cover{
+  margin-top: 50px;
+  display: block;
+  align-items: start;
+  gap: 5rem;
+}
+h3{
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+p{
+  margin-left: 70px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: arial;
+  color: gray;
+}
+img{
+  width: 350px;
+  height: 250px;
+  display: block;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  border-top-left-radius: 20px;
+}
+.box2{
+  margin-right: 70px;
+  margin-top: 20px;
+}
+.active .over{
+  margin-left: 70px;
+  border-radius: 5px;
+}
+.active .overs{
+  margin-left: 70px;
+  border-radius: 5px;
+}
+.active .sub-menu-1{
+  margin-left: 70px;
+}
+.active .sub-menu-2{
+  margin-left: 70px;
+}
+.over{
+  color: white;
+  background-color: green;
+  font-size: 35px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.overs{
+  color: white;
+  background-color: green;
+  font-size: 35px;
+  white-space: nowrap;
+  margin-top: 20px;
+} 
+.sub-menu-1{
+  display: block;
+  text-align: left;
+  margin-top: 45px;
+}
+.sub-menu-1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  word-spacing: 2px;
+  font-family: arial;
+  font-weight: lighter;
+  white-space: nowrap;
+  border-left: 7px solid green;
+  margin-left: 70px;
+}
+}
 
 @media(max-width:500px){
   body{
-    background-color: red;
-
+    background-color: white;
   }
   .menu-bar ul li{
   	display: column;

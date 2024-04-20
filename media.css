@@ -16,14 +16,19 @@ body{
   align-items: center;
   justify-content: space-evenly;   
   gap: 5rem; 
-  background-color: lightgreen;
+  background-color: green;
   height: 50px;
   padding: 50px;
-  
 }
 .serv{
-  width: 100%;
+  width: 150%;
   height: 100px;
+}
+.fill{
+  color: black;
+}
+.fa{
+  color: white;
 }
 .header .serv{
     width: 250px;
@@ -71,6 +76,7 @@ p{
     font-size: 20px;
     align-items: center;
     justify-content: space-between;
+    margin-left: 90px;
 }
 .btn_1{
     height: 50px;
@@ -241,6 +247,7 @@ p{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 .dropbtn {
   color: rgb(0, 0, 0);

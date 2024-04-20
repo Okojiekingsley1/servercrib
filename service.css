@@ -16,14 +16,15 @@ body{
   align-items: center;
   justify-content: space-evenly;   
   gap: 5rem; 
-  background-color: lightgreen;
+  background-color: green;
   height: 50px;
   padding: 50px;
   
+  
 }
 .serv{
-  width: 100%;
-  height: 100px;
+  width: 150%;
+  height: 150px;
 }
 .header .serv{
     width: 250px;
@@ -71,6 +72,7 @@ p{
     font-size: 20px;
     align-items: center;
     justify-content: space-between;
+    margin-left: 50px;
 }
 .btn_1{
     height: 50px;
@@ -201,7 +203,7 @@ p{
         display: block;
     }
     .header{
-        padding: 10px 20px;
+        padding: 50px 20px;
     }
     .menu{
         justify-content: start;
@@ -241,6 +243,7 @@ p{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 .dropbtn {
   color: rgb(0, 0, 0);
@@ -320,7 +323,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 /* body */
 .company{
   font-family: arial;
-  margin-left: 80px;
+  margin-left: 120px;
   font-size: 70px;
   font-weight: bold;
   margin-top:50px;
@@ -328,6 +331,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 .side-text{
   font-size: 22px;
   font-weight: bolder;
+  margin-left: -38px;
 
 }
 .boxe{
@@ -338,8 +342,8 @@ transition: opacity 0.3s ease; /* Apply transition */
 }
 .carde{
 	height: 150px;
-	width: 235px;
-	padding: 15px 200px;
+	width: 215px;
+	padding: 15px 370px;
 	background: lightgray;
   border-left: solid;
   border-left-color: blue;
@@ -347,15 +351,17 @@ transition: opacity 0.3s ease; /* Apply transition */
 	text-align: center;
   margin-right: 150px;
   margin-bottom: 200px;
+  margin-left: 130px;
 }
 .prat{
 	color: black;
   white-space: nowrap;
-  margin-left: -170px;
+  margin-left: -300px;
 }
 .text-2{
   width: 500px;
   height: 500px;
+  margin-right: 70px;
 }
 .h3{
   color:gray;
@@ -385,13 +391,13 @@ img{
 }
 .digi{
   font-weight: bolder;
-  margin-left:220px;
+  margin-left:180px;
   font-size: 25px;
   color: gray;
 }
 .digit{
   font-weight: bolder;
-  margin-left: 150px;
+  margin-left: 75px;
   font-size: 25px;
   color: gray;
 }
@@ -419,7 +425,7 @@ img{
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -3800px;
+	bottom: -3200px;
 	background: green;
 	color: #fff;
 	padding: 100px 0 30px;
@@ -568,7 +574,7 @@ form button .fas{
   justify-content: space-between;
 }
 .copy{
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 @media(max-width:500px){

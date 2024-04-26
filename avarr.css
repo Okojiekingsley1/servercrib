@@ -15,7 +15,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;   
-  gap: 5rem; 
   background-color: black;
   height: 50px;
   padding: 50px;

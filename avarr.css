@@ -19,6 +19,7 @@ body{
   background-color: black;
   height: 50px;
   padding: 50px;
+  width: 100%;
   
 }
 img{
@@ -59,6 +60,7 @@ p{
 .fil{
   color: white;
   margin-left: 125px;
+  font-size: 17px;
 }
 .fi{
   color: white;
@@ -248,6 +250,7 @@ margin-right: 15px;
         width: 300px;
         height: 100%;
         padding-top: 65px;
+        
     }
     .menu li{
         width: 100%;
@@ -259,14 +262,45 @@ margin-right: 15px;
         box-shadow: 0 1px 0 rgba(225, 225, 225, 0.1) inset;
     }
 }
-
-
-/*dropdown*/
+/*  */
+/* Dropdown container */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
+/* Dropdown content */
+.dropdown-contents {
+  display: inline-block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+/* Links in the dropdown */
+.dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contents a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-contents {
+  display: block;
+}
+
+
+/*dropdown*/
+.dropdowns {
+  position: relative;
+  display: none;
+}
 
 /* Dropdown button */
 .dropbtn {
@@ -276,6 +310,7 @@ margin-right: 15px;
   border: none;
   cursor: pointer;
   text-decoration: none;
+  
 }
 .dropbtnn {
   color: rgb(0, 0, 0);
@@ -315,6 +350,14 @@ margin-right: 15px;
   text-decoration: none;
   color: white;
   font-size: 20px;
+}
+.submenu2{
+  position: absolute;
+  left: 100%;
+  width: 150px;
+  top: 0;
+  background-color: green;
+  display: none;
 }
 
 /* Change color of dropdown links on hover */

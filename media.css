@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
 *{
     font-family: "Roboto";
@@ -14,22 +15,37 @@ body{
 .infoparent{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;   
-  gap: 5rem; 
-  background-color: green;
+  justify-content: space-between;   
+  background-color: black;
   height: 50px;
   padding: 50px;
+  width: 100%;
+  
+}
+img{
+  width: 200px;
 }
 .serv{
-  width: 150%;
-  height: 100px;
+  width: 160px;
+  height: 140px;
+}
+p{
+  font-size: 18px;
+}
+.number{
+  display: block;
+}
+
+.fi{
+  margin-left: 115px;
 }
 .fill{
-  color: black;
+  margin-left: -10px;
 }
 .fa{
-  color: white;
+  margin-right: 20px;
 }
+
 .header .serv{
     width: 250px;
     height: 150px;
@@ -63,12 +79,12 @@ p{
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     transition: 0.3s;
     white-space: nowrap;
-    background-color: #333;
-    padding: 20px;`
+    background-color: green;
+    padding: 50px;
 }
 
 .header .dropbtn{
@@ -76,7 +92,7 @@ p{
     font-size: 20px;
     align-items: center;
     justify-content: space-between;
-    margin-left: 90px;
+    margin-left: 50px;
 }
 .btn_1{
     height: 50px;
@@ -101,9 +117,6 @@ p{
 .logo a{
     display: block;
     height: 90px;
-}
-.serv{
-    width: 80px;
 }
 .logo a img{
     display: block;
@@ -207,7 +220,7 @@ p{
         display: block;
     }
     .header{
-        padding: 10px 20px;
+        padding: 50px 20px;
     }
     .menu{
         justify-content: start;
@@ -449,12 +462,19 @@ our{
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -1450px;
-	background: green;
-	color: #fff;
-	padding: 100px 0 30px;
+	bottom: -3600px;
+	background: black;
+	color: black;
+	padding: 70px 0 90px;
 	font-size: 13px;
 	line-height: 20px;
+}
+.footer{
+	background: green;
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+  padding: 160px 0 250px;
 }
 .row{
 	width: 85%;
@@ -596,17 +616,61 @@ form button .fas{
 .left-foot{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-.copy{
-  margin-left: 50px;
+.fa{
+  margin-left: 90px;
+  font-size: 20px;
 }
+ /* Style for dropdown */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropdown-button {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for dropdown content */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style for dropdown options */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style for dropdown options on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.policy{
+color: white;
+}
+
+
+
 /*  */
 @media(max-width:500px){
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -3500px;
+	bottom: -8300px;
 	background: green;
 	color: #fff;
 	padding: 100px 0 30px;
@@ -616,91 +680,170 @@ footer{
 }
 
 @media(max-width:500px){
-h1{
-  margin-left: ;
-  font-size: 40px;
-  font-family: sans-serif;
-  margin-top: 20px;
+.company{
+  font-family: arial;
+  margin-left: 120px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top:50px;
+	margin-bottom: 20px;
 }
-.cover{
-  margin-top: 50px;
-  display: block;
-  align-items: start;
-  gap: 5rem;
+.boxe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-h3{
-  font-size: 30px;
-  margin-left: 70px;
-  margin-top: 20px;
+.carde{
+	height: 400px;
+	width: 235px;
+	padding: 15px 55px;
+	background: lightgray;
+  border-left: solid;
+  border-left-color: blue;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  margin-right: 150px;
+  margin-bottom: 0;
+  margin-top: auto 0;
 }
-p{
-  margin-left: 70px;
+.prat{
+	color: black;
+	font-size: 20px;
+	line-height: 27px;
+	margin-top: 35px;
+}
+.side-text{
+  margin-top: 0;
+  margin-left: -35px;
+}
+.text{
   margin-top: 10px;
-  font-size: 15px;
-  font-family: arial;
-  color: gray;
 }
-img{
-  width: 350px;
-  height: 250px;
-  display: block;
-  justify-content: space-evenly;
-  margin-left: 30px;
-  border-top-left-radius: 20px;
-}
-.box2{
-  margin-right: 70px;
-  margin-top: 20px;
-}
-.active .over{
-  margin-left: 70px;
-  border-radius: 5px;
-}
-.active .overs{
-  margin-left: 70px;
-  border-radius: 5px;
-}
-.active .sub-menu-1{
-  margin-left: 70px;
-}
-.active .sub-menu-2{
-  margin-left: 70px;
-}
-.over{
-  color: white;
-  background-color: green;
-  font-size: 35px;
-  margin-left: 150px;
-  margin-top: 20px;
-}
-.overs{
-  color: white;
-  background-color: green;
-  font-size: 35px;
-  white-space: nowrap;
-  margin-top: 20px;
-} 
-.sub-menu-1{
-  display: block;
-  text-align: left;
-  margin-top: 45px;
-}
-.sub-menu-1 a{
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  word-spacing: 2px;
-  font-family: arial;
-  font-weight: lighter;
-  white-space: nowrap;
-  border-left: 7px solid green;
-  margin-left: 70px;
+.text-2{
+  font-family: roboto;
+  line-height: 20px;
+  margin-left: -120px;
 }
 }
 
 @media(max-width:500px){
+.box{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+  height: 100px;
+  background: lightgray;
+}
+.card{
+	height: 200px;
+	width: 350px;
+	padding: 10px 35px;
+	background: #fff;
+  border: 1px solid;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: green;
+}
+.pra p{
+	color: black;
+	font-size: 17px;
+  text-align: left;
+  font-family:  Arial, sans-serif;
+}
+}
+@media(max-width:500px){
+  h3{
+    margin-left: 70px;
+    font-size: 28px;
+    font-family: arial;
+    text-decoration: none;
+    margin-top: 250px;
+  }
+  .para{
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+    letter-spacing: 1px;
+  }
+  .para-with{
+    display: block;
+  }
+  .hand{
+    height: 200px;
+    width: 330px;
+    margin-left: 70px;
+  }
+}
+@media(max-width:500px){
+.message{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-left: 70px;
+}
+.ayo{
+  color: gray;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.message-ayo{
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.client{
+  font-family: arial;
+  font-size: 30px;
+  margin-left: 130px;
+  font-weight: bolder;
+}
+.message-client{
+  color: gray;
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: arial;
+}
+.imessage{
+	display: block;
+}
+.overall-message{
+	display: block;
+}
+.ehi{
+	width: 650px;
+	height: 650px;
+	margin-left: -150px;
+	margin-top: -100px;
+}
+}
+@media(max-width:500px){
+  .client{
+    margin-left: 70px;
+  }
+  .message-client{
+    margin-left: 70px;
+  }
+}
+@media(max-width:500px){
   body{
-    background-color: white;
+    background-color:#fff;
   }
   .menu-bar ul li{
   	display: column;

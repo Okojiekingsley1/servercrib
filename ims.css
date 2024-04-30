@@ -1,0 +1,802 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
+*{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background:;
+}
+
+
+.infoparent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+  background-color: black;
+  height: 50px;
+  padding: 50px;
+  width: 100%;
+  
+}
+img{
+  width: 200px;
+}
+.header .serv{
+    width: 250px;
+    height: 150px;
+}
+p{
+  font-size: 18px;
+}
+.number{
+  
+}
+.number , .email, .location{
+  display: flex;
+  align-items: start;
+  margin-right: -40px;
+}
+ /* .fill {
+  margin-bottom: 5px; 
+}
+
+.fa {
+  margin-right: 5px; 
+}
+
+.b {
+  margin-left: 5px; 
+} */
+
+.fill{
+  color: white;
+  margin-bottom: 3px;
+  white-space: nowrap;
+}
+.fil{
+  color: white;
+  margin-left: 125px;
+  font-size: 17px;
+}
+.fi{
+  color: white;
+  margin-left: 120px;
+}
+.fa{
+color: white;
+margin-right: 15px;
+}
+.search{
+  display: none;
+}
+@media (max-width:576px)  {
+  .infoparent{
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+  /* Styles for iPads in portrait mode */
+  .search{
+    display: flex;
+  }
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    white-space: nowrap;
+    background-color: green;
+    padding: 60px;
+    height: 90px;
+  
+}
+
+.header .dropbtn{
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-even;
+    margin-left: 80px;
+}
+.btn_1{
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.header ul li {
+  margin: 0 10px; /* Add some spacing between list items */
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/*down head*/
+.logo a{
+    display: block;
+    height: 90px;
+}
+.serv{
+    width: 80px;
+}
+.logo a img{
+    display: block;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0 25px;
+    font-size: 18px;
+    line-height: 1;
+    transition: 0.3s;
+}
+.menu li a:hover{
+    box-shadow: 0 -5px 0px #fff inset,
+    500px 0 0 rgba(255,255,255,0.03) inset;
+    padding: 35px 25px 45px 25px;   
+}
+
+
+.hamburger{
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.3s;
+}
+.hamburger:before,
+.hamburger:after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.hamburger:before{
+    top: -10px;
+    width: 20px;
+}
+.hamburger:after{
+    top: 10px;
+    width: 25px;
+}
+
+
+.toggle-menu{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+.hamburger,
+.toggle-menu{
+/*    display: none;*/
+}
+.navigation input:checked ~ .hamburger{
+    background: transparent;
+}
+.navigation input:checked ~ .hamburger:before{
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+.navigation input:checked ~ .hamburger:after{
+    top: 0;
+    transform: rotate(45deg);
+    width: 30px;
+}
+.navigation input:checked ~ .menu{
+    right: 0;
+    box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width:992px){
+    .hamburger,
+    .toggle-menu{
+        display: block;
+    }
+    .header{
+        padding: 10px 20px;
+    }
+    .menu{
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background: #4527a0;
+        width: 300px;
+        height: 100%;
+        padding-top: 65px;
+        
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a,
+    .menu li a:hover{
+        padding: 30px;
+        font-size: 24px;
+        box-shadow: 0 1px 0 rgba(225, 225, 225, 0.1) inset;
+    }
+}
+/*  */
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-contents {
+  display: inline-block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+/* Links in the dropdown */
+.dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contents a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-contents {
+  display: block;
+}
+
+
+/*dropdown*/
+.dropdowns {
+  position: relative;
+  display: none;
+}
+
+/* Dropdown button */
+.dropbtn {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.dropbtnn {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown .drop-text{
+    white-space: nowrap;
+    color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* top: calc(100% + 10px); Adjusted position */
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 9s ease; /* Smooth transition */
+  margin-top: 5px; /* Adjusted position */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.home{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1; /* Make the dropdown visible */
+transition: opacity 0.3s ease; /* Apply transition */
+}
+
+@media (max-width:576px ) {
+  .dropdown:hover .dropdown-content {
+      display: flex;
+    }
+}
+
+
+.btn_select_parent{
+  gap: 10px;
+  display: flex;
+}
+
+.btn_1{
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 5px 21px;
+  color: #fff;
+  height: 50px;
+  font-size: 20px;
+}
+
+.second .sec{
+    height: 40px;
+}
+/*end of head*/
+.hdn{
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.hdn-page{
+  margin-left: 120px;
+}
+.list-hdn{
+  margin-top: 10px;
+  margin-left: 120px;
+}
+li{
+  text-align: left;
+}
+
+
+
+
+/*footer*/
+footer{
+	width:100%;
+	position: absolute;
+	bottom: -950px;
+	background: black;
+	color: #fff;
+	padding: 100px 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.footer{
+	background: green;
+	color: #fff;
+	padding: 100px 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.row{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.col{
+	flex-basis: 25%;
+	padding: 10px;
+	font-family: arial;
+  font-size: 15px;
+}
+/*.col p{
+	color: darkorange;
+	font-family: roboto;
+	left: 80px;
+}*/
+.col a{
+	color: white;
+	font-family: roboto;
+}
+.col li a{
+  font-size: 20px;
+  letter-spacing: normal;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+.col h4{
+	color: darkorange;
+	font-family: roboto;
+} 
+
+.col h3{
+	width:fit-content;
+	margin-bottom: 40px;
+  margin-left: 250px;
+	position: relative;
+	font-family: roboto;
+  margin-left: 0;
+}
+.col:nth-child(2), .col:nth-child(3){
+	flex-basis: 15%;
+}
+.email-id{
+	width: fit-content;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0;
+}
+ul li{
+	list-style:none;
+	margin-bottom: 12px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+form{
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 50px;
+}
+form .far{
+	font-size: 18px;
+	margin-right: 10px;
+}
+form input{
+	width: 100%;
+	background: transparent;
+	color: #ccc;
+	border:0;
+	outline: none;
+}
+form button{
+	background: transparent;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+form button .fas{
+	font-size: 16px;
+	color:#ccc;
+}
+.social-icons .fab{
+	width:30px;
+	height:40px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: green;
+	background: white;
+	margin-right: 15px;
+	cursor: pointer;
+  margin-top: 10px;
+}
+.social-icon-foot .fab{
+	width:40px;
+	height:40px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: green;
+	background: white;
+	cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.social-icon-foot {
+  margin-right: 40px;
+}
+ hr{
+	width: 90%;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	margin: 20px auto;
+} 
+.underline{
+	width: 280%;
+	height:1px;
+	background: white;
+	border-radius: 3px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	overflow: hidden;
+}
+.underline span{
+	width: 15px;
+	border-radius: px;
+	position: absolute;
+}
+.left-foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fa{
+  margin-left: 90px;
+  font-size: 20px;
+}
+ /* Style for dropdown */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropdown-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for dropdown content */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style for dropdown options */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style for dropdown options on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+
+/*  */
+@media(max-width:500px){
+footer{
+	width:100%;
+	position: absolute;
+	bottom: -8300px;
+	background: green;
+	color: #fff;
+	padding: 100px 0 30px;
+	font-size: 13px;
+	line-height: 20px;
+}
+}
+
+@media(max-width:500px){
+.company{
+  font-family: arial;
+  margin-left: 120px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top:50px;
+	margin-bottom: 20px;
+}
+.boxe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carde{
+	height: 400px;
+	width: 235px;
+	padding: 15px 55px;
+	background: lightgray;
+  border-left: solid;
+  border-left-color: blue;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  margin-right: 150px;
+  margin-bottom: 0;
+  margin-top: auto 0;
+}
+.prat{
+	color: black;
+	font-size: 20px;
+	line-height: 27px;
+	margin-top: 35px;
+}
+.side-text{
+  margin-top: 0;
+  margin-left: -35px;
+}
+.text{
+  margin-top: 10px;
+}
+.text-2{
+  font-family: roboto;
+  line-height: 20px;
+  margin-left: -120px;
+}
+}
+
+@media(max-width:500px){
+.box{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+  height: 100px;
+  background: lightgray;
+}
+.card{
+	height: 200px;
+	width: 350px;
+	padding: 10px 35px;
+	background: #fff;
+  border: 1px solid;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: green;
+}
+.pra p{
+	color: black;
+	font-size: 17px;
+  text-align: left;
+  font-family:  Arial, sans-serif;
+}
+}
+@media(max-width:500px){
+  h3{
+    margin-left: 70px;
+    font-size: 28px;
+    font-family: arial;
+    text-decoration: none;
+    margin-top: 250px;
+  }
+  .para{
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+    letter-spacing: 1px;
+  }
+  .para-with{
+    display: block;
+  }
+  .hand{
+    height: 200px;
+    width: 330px;
+    margin-left: 70px;
+  }
+}
+@media(max-width:500px){
+.message{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-left: 70px;
+}
+.ayo{
+  color: gray;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.message-ayo{
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.client{
+  font-family: arial;
+  font-size: 30px;
+  margin-left: 130px;
+  font-weight: bolder;
+}
+.message-client{
+  color: gray;
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: arial;
+}
+.imessage{
+	display: block;
+}
+.overall-message{
+	display: block;
+}
+.ehi{
+	width: 650px;
+	height: 650px;
+	margin-left: -150px;
+	margin-top: -100px;
+}
+}
+@media(max-width:500px){
+  .client{
+    margin-left: 70px;
+  }
+  .message-client{
+    margin-left: 70px;
+  }
+}
+@media(max-width:500px){
+  body{
+    background-color:#fff;
+  }
+  .menu-bar ul li{
+  	display: column;
+  	flex-direction: column;
+  	align-items: center;
+  }
+}

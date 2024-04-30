@@ -96,7 +96,7 @@ margin-right: 15px;
     white-space: nowrap;
     background-color: green;
     padding: 60px;
-    height: 50px;
+    height: 90px;
   
 }
 
@@ -105,7 +105,7 @@ margin-right: 15px;
     font-size: 20px;
     align-items: center;
     justify-content: space-even;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 .btn_1{
     height: 50px;
@@ -350,14 +350,7 @@ margin-right: 15px;
   color: white;
   font-size: 20px;
 }
-.submenu2{
-  position: absolute;
-  left: 100%;
-  width: 150px;
-  top: 0;
-  background-color: green;
-  display: none;
-}
+
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
@@ -406,7 +399,7 @@ transition: opacity 0.3s ease; /* Apply transition */
   font-weight: bold;
   margin-top:50px;
 	margin-bottom: 20px;
-  margin-left: 200px;
+  margin-left: 500px;
 }
 .side-text{
   font-family: arial;
@@ -419,8 +412,8 @@ transition: opacity 0.3s ease; /* Apply transition */
 
 }
 .carde{
-	height: 150px;
-	width: 235px;
+	height: 280px;
+	width: 245px;
 	padding: 10px 35px;
 	background: lightgray;
   border-left: solid;
@@ -431,6 +424,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 	text-align: center;
   margin-right: 150px;
   margin-bottom: 50px;
+  margin-left: 90px;
 }
 .prat{
 	color: black;
@@ -444,7 +438,8 @@ transition: opacity 0.3s ease; /* Apply transition */
 .text-2{
   font-family: roboto;
   line-height: 20px;
-  margin-left: -80px;
+  margin-left: 120px;
+  margin-top: 50px;
 }
 h3{
   margin-left: 130px;
@@ -455,20 +450,42 @@ h3{
 .serv{
   text-decoration: none;
 }
+.objective{
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  margin-left: 120px;
+}
+
+.values{
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: -450px;
+  font-weight: bolder;
+}
+.list{
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+}
 .para{
   font-family: arial;
   font-size: 20px;
   margin-top: 20px;
   margin-left: 130px;
   letter-spacing: 1px;
+  
 }
 .para-with{
 	display: flex;
 }
 .hand{
-	height: 200px;
+	height: 500px;
 	width: 450px;
-	margin-left: 80px;
+	margin-left: 900px;
+}
+.image{
+  margin-bottom:50px;
 }
 .message{
   font-size: 30px;
@@ -529,7 +546,7 @@ h3{
 }
 .card{
 	height: 200px;
-	width: 350px;
+	width: 390px;
 	padding: 10px 35px;
 	background: #fff;
   border: 1px solid;
@@ -547,7 +564,7 @@ h3{
 }
 .pra p{
 	color: black;
-	font-size: 17px;
+	font-size: 20px;
   text-align: left;
   font-family:  Arial, sans-serif;
 }
@@ -555,7 +572,7 @@ h3{
   list-style: none;
 }
 .vision-p{
-  letter-spacing: -1px;
+  letter-spacing: ;
 }
 .be{
   margin-top: 14px;
@@ -626,18 +643,25 @@ h3{
 }
 
 
-
+/* end of body */
 
 /*footer*/
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -2800px;
-	background: green;
+	bottom: -2650px;
+	background: black;
 	color: #fff;
-	padding: 100px 0 30px;
+	padding: 70px 0 90px;
 	font-size: 13px;
 	line-height: 20px;
+}
+.footer{
+	background: green;
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+  padding: 100px 0 90px;
 }
 .row{
 	width: 85%;
@@ -779,12 +803,55 @@ form button .fas{
 .left-foot{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .fa{
   margin-left: 90px;
   font-size: 20px;
 }
+ /* Style for dropdown */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for dropdown button */
+.dropdown-button {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for dropdown content */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style for dropdown options */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style for dropdown options on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.policy{
+color: white;
+}
+
+
+
 /*  */
 @media(max-width:500px){
 footer{

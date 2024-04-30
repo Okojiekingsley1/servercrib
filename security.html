@@ -11,15 +11,14 @@
 <link rel="stylesheet" href="security.css">
 </head>
 <body>
-  <!-- head -->
   <div class="infoparent">
-    <img src="asset/serv1.png">
+    <img class="serv" src="asset/serv1.png">
     <div class="number">
       
       <BsTelephoneFill/>
       
-      <p class="fill"><i class="fa fa-phone"></i><b>+234(0)8032279851</b></p>
-      <p class="fil">Call Customer Care</p>
+      <p class="fille"><i class="fa fa-phone"></i>+234(0)8032279851</p>
+      <p class="fi">Call Customer Care</p>
     </div>
     <!-- <div>
       <p class="fill"><i class="fa fa-phone"></i>&nbsp;<b>+234(0)8032279851</b></p>
@@ -33,7 +32,7 @@
     </div>
     <div class="location">
     <IoLocationSharp/>
-      <p class="fill"><i class="fa fa-location-dot"></i>Banex Complex: Plot 10 Akiogun </p> <p class="fil">Road, New Market Junction, Oniru Lekki-Express Way Lagos</p>
+      <p class="fill"><i class="fa fa-location-dot"></i>Banex Complex: Plot 10 Akiogun Road,</p><p class="fi">New Market Junction, Oniru Lekki-Express Way Lagos</p>
     </div>
 
     
@@ -60,36 +59,29 @@
         </div>
       </div>
 
+      
+
 
                     <div class="dropdown">
         
-          <li><a class="dropbtn" href="index.html">About</a></li>
+          <li><a class="dropbtn" href="index.html">About Us</a></li>
         <div class="dropdown-content">
-          <a class="drop-text" href="#">Our Journey</a>
+          <a class="drop-text" href="#">Who We Are</a>
           <a class="drop-text" href="team.html">Management Team</a>
           <a class="drop-text" href="faq.html">FAQ</a>
           </div>
           </div>
 
 
-                    <div class="dropdown">
-        <li><a class="dropbtn ">Services</a></li>
+          <div class="dropdown">
+        <li><a class="dropbtn ">Product & Services</a></li>
+
         <div class="dropdown-content">
-<!-- subdrop -->
-          <div class="dropdowns">
-          <li><a class="drop-text" href="#">IT Security</a></li>
-          <div class="dropdown-contents">
-            <a class="drop-texts" href="#">Assess Control</a>
-            <a class="drop-texts" href="#">Security Products</a>
-          </div>
-          </div>
-
-
-
+          
           <a class="drop-text" href="#">Advanced and Data Analytics</a>
           <a class="drop-text" href="#">Security</a>
           <a class="drop-text" href="#">Cloud Consulting</a>
-          <a class="drop-text" href="#">Security</a>
+          <a class="drop-text" href="#">IT Security</a>
           <a class="drop-text" href="#">Infrastructure Services</a>
           <a class="drop-text" href="#">Data Center</a>
           <a class="drop-text" href="#">Business Consulting And<br> Professional Service</a>
@@ -104,37 +96,15 @@
       </div>
           
           <div class="dropdown">
-            <li><a class="dropbtn" href="home.html">Careers</a></li>
-      </div>
-          
-          <div class="dropdown">
             <li><a class="dropbtn" href="contact.html">Contact Us</a></li>
       </div>
-
-          <div class="dropdown">
-          <div class="btn_select_parent">
-        <div class="first">
-      <button class="btn_1">Academy</button>
-      </div>
-  </div>
-</div>
-
-      
-      <div class="second">
-        <select class="sec" name="sec" id="">
-          <option value=""> English</option>
-          <option value=""> Chinese</option>
-          <option value=""> French</option>
-        </select>
-      </div>
-      
   
             </ul>
         </div>
     </header>
     <!-- end of head -->
 <!-- body -->
-<section>
+<section class="section">
 <h1>IT Security</h1>
 <div>
 <p>Our security services are designed to protect your data,<br> infrastructure, and applications from cyber threats. Our<br> security experts provide: <br><br>
@@ -267,6 +237,104 @@
 <h1>Business Consulting and Professional Services</h1>
 <p>Achieve your strategic goals with our business consulting and professional services. From project management to strategic planning, our experienced consultants are here to guide you every step of the way. We provide:</p><br>
 </section>
+
+<!-- footer -->
+<div class="footer">
+  <div class="row">
+    <!-- <p>Your happiness is<br> our priority</p> -->
+  
+    <div class="col">
+      <h3>Company <div class="underline"><span></span></div> </h3>
+      <ul class="col">
+      <li><a href="">About Us</a></li>
+      <li><a href="">Products & Services</a></li>
+      <li><a href="">Clients</a></li>
+      <li><a href="">Our Partners</a></li>
+      </ul>
+    </div>
+    
+
+    <div class="col">
+      <h3>Community <div style="text-decoration: none;" class="underline"><span></span></div> </h3>
+      <ul class="col">
+      <li><a href="">News</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Security</a></li>
+      <li><a href="">Careers</a></li>
+      <li><a href="">Contact Us</a></li>
+      </ul>
+    </div>
+    <br><br>
+    <div class="col">
+      <h3>Our Social Media <div class="underline"><span></span></div></h3>
+      <p>Connect with us on our social media handles</p>
+      
+      <div class="social-icons">
+        <a href=""><i class="fab fa-facebook"></a></i>
+        <a href=""><i class="fab fa-instagram"></a></i>
+        <a href=""><i class="fab fa-twitter"></a></i>
+        <a href=""><i class="fab fa-linkedin"></a></i>
+        <a href=""><i class="fab fa-whatsapp"></a></i>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<footer>
+  <div class="left-foot">
+    <div class="copy">
+  <i class="fa fa-copyright"></i>2024 Servercribtechnology Limited.
+</div>
+<p class="policy">IMS Policy Statement</p>
+<p class="policy">Privacy Policy</p>
+<p class="policy">Cookies Policy</p>
+
+
+
+<!-- Dropdown container -->
+<div class="dropdown">
+<!-- Dropdown button -->
+<button onclick="toggleDropdown()" class="dropdown-button">Select Country</button>
+<!-- Dropdown content -->
+<div id="dropdownMenu" class="dropdown-content">
+  <!-- Dropdown options -->
+  <a href="#"><span class="flag-icon">&#x1F1E6;&#x1F1FA;</span> Australia</a>
+  <a href="#"><span class="flag-icon">&#x1F1E7;&#x1F1F7;</span> Brazil</a>
+  <a href="#"><span class="flag-icon">&#x1F1E8;&#x1F1E6;</span> Canada</a>
+  <a href="#"><span class="flag-icon">&#x1F1E8;&#x1F1F3;</span> China</a>
+  <a href="#"><span class="flag-icon">&#x1F1E9;&#x1F1EA;</span> Germany</a>
+  <a href="#"><span class="flag-icon">&#x1F1EE;&#x1F1F3;</span> India</a>
+  <a href="#"><span class="flag-icon">&#x1F1EF;&#x1F1F5;</span> Japan</a>
+  <!-- Add more countries as needed -->
+</div>
+</div>
+
+
+  </div>
+
+
+</footer>
+
+<script>
+// Function to toggle dropdown visibility
+function toggleDropdown() {
+  document.getElementById("dropdownMenu").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropdown-button')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 </body>
 </html>

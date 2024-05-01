@@ -357,7 +357,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 .serve{
   width: 700px;
   height: 700px;
-  margin-top: -150px;
+  margin-top: -60px;
   margin-left: -100px;
 }
 .tran-btn{
@@ -689,7 +689,7 @@ footer{
     font-size: 30px;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 180px;
+    margin-left: 150px;
     
   }
   .trans{

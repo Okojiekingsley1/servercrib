@@ -38,6 +38,7 @@ p{
 
 .fi{
   margin-left: 120px;
+  white-space: nowrap;
 }
 .fill{
   margin-left: -20px;

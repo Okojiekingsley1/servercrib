@@ -24,27 +24,6 @@ body{
 img{
   width: 200px;
 }
-.serv{
-  width: 160px;
-  height: 140px;
-}
-p{
-  font-size: 18px;
-}
-.number{
-  display: block;
-}
-
-.fi{
-  margin-left: 115px;
-}
-.fill{
-  margin-left: -10px;
-}
-.fa{
-  margin-right: 20px;
-}
-
 .header .serv{
     width: 250px;
     height: 150px;
@@ -52,10 +31,43 @@ p{
 p{
   font-size: 18px;
 }
+.number{
+  
+}
 .number , .email, .location{
   display: flex;
   align-items: start;
+  margin-right: -40px;
+}
+ /* .fill {
+  margin-bottom: 5px; 
+}
+
+.fa {
+  margin-right: 5px; 
+}
+
+.b {
+  margin-left: 5px; 
+} */
+
+.fill{
   color: white;
+  margin-bottom: 3px;
+  white-space: nowrap;
+}
+.fil{
+  color: white;
+  margin-left: 125px;
+  font-size: 17px;
+}
+.fi{
+  color: white;
+  margin-left: 120px;
+}
+.fa{
+color: white;
+margin-right: 15px;
 }
 .search{
   display: none;
@@ -78,20 +90,22 @@ p{
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     transition: 0.3s;
     white-space: nowrap;
     background-color: green;
-    padding: 50px;
+    padding: 60px;
+    height: 90px;
+  
 }
 
 .header .dropbtn{
     color: white;
     font-size: 20px;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 50px;
+    justify-content: space-even;
+    margin-left: 80px;
 }
 .btn_1{
     height: 50px;
@@ -116,6 +130,9 @@ p{
 .logo a{
     display: block;
     height: 90px;
+}
+.serv{
+    width: 80px;
 }
 .logo a img{
     display: block;
@@ -219,7 +236,7 @@ p{
         display: block;
     }
     .header{
-        padding: 50px 20px;
+        padding: 10px 20px;
     }
     .menu{
         justify-content: start;
@@ -232,6 +249,7 @@ p{
         width: 300px;
         height: 100%;
         padding-top: 65px;
+        
     }
     .menu li{
         width: 100%;
@@ -243,25 +261,57 @@ p{
         box-shadow: 0 1px 0 rgba(225, 225, 225, 0.1) inset;
     }
 }
-
-
-/*dropdown*/
+/*  */
+/* Dropdown container */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
+/* Dropdown content */
+.dropdown-contents {
+  display: inline-block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+/* Links in the dropdown */
+.dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contents a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-contents {
+  display: block;
+}
+
+
+/*dropdown*/
+.dropdowns {
+  position: relative;
+  display: none;
+}
 
 /* Dropdown button */
 .dropbtn {
-  color: rgb(0, 0, 0);
+  color: black;
   padding: 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   text-decoration: none;
+  
 }
-.dropbtn {
+.dropbtnn {
   color: rgb(0, 0, 0);
   padding: 10px;
   font-size: 16px;
@@ -295,6 +345,12 @@ p{
   text-decoration: none;
   display: block;
 }
+.home{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
@@ -334,55 +390,266 @@ transition: opacity 0.3s ease; /* Apply transition */
     height: 40px;
 }
 /*end of head*/
+/*body*/
 
-/* body */
-.tran{
-  font-size: 30px;
+.company{
+  font-family: arial;
+  margin-left: 40px;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top:50px;
+	margin-bottom: 20px;
+  margin-left: 500px;
+}
+.side-text{
+  font-family: arial;
+  font-size: 20px;
+}
+.boxe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.carde{
+	height: 280px;
+	width: 245px;
+	padding: 10px 35px;
+	background: lightgray;
+  border-left: solid;
+  border-left-color: blue;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-left: 90px;
+}
+.prat{
+	color: black;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 35px;
+}
+.text{
+  margin-top: -40px;
+}
+.text-2{
+  font-family: roboto;
+  line-height: 20px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+h3{
+  margin-left: 130px;
+  font-size: 28px;
+  font-family: arial;
+  text-decoration: none;
+}
+.serv{
+  text-decoration: none;
+}
+.objective{
+  font-size: 40px;
+  margin-bottom: 30px;
   font-weight: bolder;
-  margin-top: 30px;
+  margin-left: 120px;
+}
+
+.values{
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: -450px;
+  font-weight: bolder;
+}
+.list{
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+}
+.para{
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 130px;
+  letter-spacing: 1px;
   
 }
-.trans{
+.para-with{
+	display: flex;
+}
+.hand{
+	height: 500px;
+	width: 450px;
+	margin-left: 900px;
+}
+.image{
+  margin-bottom:50px;
+}
+.message{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.ayo{
+  color: gray;
+  font-size: 20px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.message-ayo{
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 130px;
+  letter-spacing: 1px;
+}
+.client{
+  font-family: arial;
+  font-size: 30px;
+  margin-left: 130px;
+  font-weight: bolder;
+}
+.message-client{
+  color: gray;
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: arial;
+}
+.imessage{
+	display: block;
+}
+.overall-message{
+	display: flex;
+}
+.ehi{
+	width: 650px;
+	height: 650px;
+	margin-left: 150px;
+	margin-top: -300px;
+}
+
+
+
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+  height: 100px;
+  background: lightgray;
+
+}
+.card{
+	height: 200px;
+	width: 390px;
+	padding: 10px 35px;
+	background: #fff;
+  border: 1px solid;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: green;
+}
+.pra p{
+	color: black;
+	font-size: 20px;
+  text-align: left;
+  font-family:  Arial, sans-serif;
+}
+.list li{
+  list-style: none;
+}
+.vision-p{
+  letter-spacing: ;
+}
+.be{
+  margin-top: 14px;
   font-size: 17px;
-  font-weight: bold;
+  text-align: left;
 }
-.transf{
-  background-color: gray;
-  padding:100px;
+.go{
+  margin-top: 14px;
+  font-size: 17px;
+  text-align: left;
+}
+.enable{
+  margin-top: 14px;
+  font-size: 17px;
+  text-align: left;
+}
+.peace{
   margin-top: 10px;
-  background: url("asset/server0.png") 700px;
-  background-color: gray;
 }
-.tran-btn{
-  height: 50px;
-  width: 200px;
-  font-size: 16px;
+.vision{
+  font-size: 30px;
+  color: black;
+  margin-left:25px;
+}
+
+.icon_contain{
+  display: flex;
+  align-items: center;
+}
+/* marquee */
+.marquee {
+	white-space: wrap;
+	background-size: contain;
+	overflow: hidden;
+	width: 2000px;
+	height: 180px; /* Adjust according to your needs */
+}
+
+.marquee img {
+	display: inline-block;
+	margin-right: 20px; /* Adjust the spacing between images */
+	animation: marquee 60s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes marquee {
+	from { transform: translateX(100%); }
+	to { transform: translateX(-100%); }
+}
+.gallery-container {
+  overflow: hidden;
+}
+
+.gallery {
   white-space: nowrap;
-  border-radius: 10px;
-  color: white;
-  background-color: red;
-  border: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  animation: marquee 15s linear infinite;
+}
+
+.gallery img {
+  display: inline-block;
+  width: 400px; /* Adjust image width as needed */
+  height: 200px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust spacing between images */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* end of body */
 
 /*footer*/
 footer{
 	width:100%;
 	position: absolute;
-	bottom: -3600px;
+	bottom: -2650px;
 	background: black;
 	color: #fff;
 	padding: 70px 0 90px;
@@ -394,7 +661,7 @@ footer{
 	color: #fff;
 	font-size: 13px;
 	line-height: 20px;
-  padding: 160px 0 250px;
+  padding: 100px 0 90px;
 }
 .row{
 	width: 85%;

@@ -343,7 +343,7 @@ transition: opacity 0.3s ease; /* Apply transition */
   font-size: 30px;
   font-weight: bolder;
   margin-top: 30px;
-  margin-left: 120px;
+  margin-left: 80px;
   
 }
 .trans{
@@ -352,14 +352,14 @@ transition: opacity 0.3s ease; /* Apply transition */
 }
 .transf{
   background-color: gray;
-  padding:100px;
+  padding:50px;
   background-color: gray;
   display: flex;
 }
 .serve{
   width: 700px;
   height: 700px;
-  margin-top: -60px;
+  margin-top: -100px;
   margin-left: -100px;
 }
 .tran-btn{
@@ -372,14 +372,17 @@ transition: opacity 0.3s ease; /* Apply transition */
   background-color: green;
   border: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
 }
 .why{
   font-size: 37px;
-  margin-left: 550px;
+  margin-left: 590px;
+  color: green;
 }
 .whyy{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-left: 500px;
+  font-weight: bold;
   
 }
 .why-name{
@@ -441,17 +444,306 @@ transition: opacity 0.3s ease; /* Apply transition */
   margin-left: 150px;
   width: 600px;
 }
+/* next */
+.contain-p{
+  display: flex;
+  align-items: center;
+}
+.all-store{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*service starts from here*/
+
+.service{
+	width:100%;
+	padding: 100px 0px;
+  margin-top: -150px;
+}
+.title h2{
+	color: green;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.card{
+	height: 500px;
+	width: 375px;
+	padding: -190px 10px;
+	background: lightgreen;
+	border-radius: 20px;
+	margin: 30px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 20px 0px;
+	color: green;
+  margin-top: 40px;
+}
+h5{
+	color: green;
+	font-size: 23px;
+	margin-bottom: 15px;
+  margin-top: 60px;
+  font-size: 27px;
+}
+.ad{
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100px;
+}
+.pra p{
+	font-size: 16px;
+	line-height: 27px;
+}
+.card .button{
+	background-color: green;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid darkgreen;
+	cursor: pointer;
+}
+
+
+/* marquee */
+.marquee {
+	white-space: wrap;
+	background-size: contain;
+	overflow: hidden;
+	width: 2000px;
+	height: 180px; /* Adjust according to your needs */
+}
+
+.marquee img {
+	display: inline-block;
+	margin-right: 20px; /* Adjust the spacing between images */
+	animation: marquee 60s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes marquee {
+	from { transform: translateX(100%); }
+	to { transform: translateX(-100%); }
+}
+.gallery-container {
+  overflow: hidden;
+}
+
+.gallery {
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+
+.gallery img {
+  display: inline-block;
+  width: 400px; /* Adjust image width as needed */
+  height: 200px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust spacing between images */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+ .it-sol{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 250px;
+}
+.solution{
+  display: flex;
+  align-items: center;
+  margin-left: 470px;
+}
+.trust-par{
+  font-size: 15px;
+}
+.trust-p{
+  font-size: 15px;
+  margin-left: 90px;
+}
+.sol-btn{
+  color: white;
+  background-color: green;
+  height: 55px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: -50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 0;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.all-solution{
+  background-color: lightgreen;
+  padding: 40px;
+} 
+.section-grid{
+  /* padding: 40px; */
+}
+
+.grid{
+  background-color: #80d0e4;
+  padding: 20px;
+}
+
+
+.card-grids{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 2.5rem;
+  padding: 20px;
+}
+
+@media (max-width:900px) {
+  .card-grids{
+  grid-template-columns: repeat(1 , 1fr);
+
+  }
+}
+
+.card{
+line-height: 22px;
+background: #1c5e50;
+padding: 20px;
+}
+
+.card > h4{
+  margin-bottom: 20px;
+}
+h4 > a{
+  text-decoration: none;
+  color: black;
+}
+
+.card > p{
+  width: 100%;
+}
+
+.icon{
+  display: flex;
+}
+
+.control{
+  margin: 100px;
+}
+
+.lower-grid{
+  display: flex;
+  padding: 20px;
+  gap: 2rem;
+}
+
+
+.vision-card , .mission-card , .promise-card {
+  border: black solid 1px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.vision-card{
+  margin-bottom: 40px;
+}
+.mission-card{
+  margin-bottom: 40px;
+}
 
 
 
+/* newslwtter */
 
-
-
-
-
-
-
-
+.btn{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: left;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	margin-left: 100px;
+	margin-top: 400px;
+}h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+/* newsletter */
+.newsletter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newsletter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px  solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+.newsletter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #f9004d;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px;
+}
+.content{
+	position: left;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	margin-left: 100px;
+	margin-top: 400px;
+}
 
 
 

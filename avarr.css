@@ -412,12 +412,17 @@ transition: opacity 0.3s ease; /* Apply transition */
   color: gray;
 }
 .intro-comp{
-  font-size: 23px;
+  font-size: 30px;
   font-weight: bold;
+  color: black;
+  margin-top: -30px;
+  margin-bottom: 20px;
+
 }
 .intro-p{
   line-height: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
 }
 .introduction{
   margin-left: 70px;
@@ -623,7 +628,6 @@ h5{
 footer{
 	width:100%;
 	position: absolute;
-	border-start-end-radius: 30px;
 	background: black;
 	color: #fff;
 	padding: 70px 0 90px;
@@ -637,6 +641,7 @@ footer{
 	line-height: 20px;
   padding: 50px 0 50px;
   margin-bottom: -100px;
+  border-top-left-radius: 120px;
 }
 .row{
 	width: 85%;
@@ -726,9 +731,9 @@ form button .fas{
 	color:#ccc;
 }
 .social-icons .fab{
-	width:30px;
+	width:40px;
 	height:40px;
-	border-radius: 5px;
+	border-radius: 40px;
 	text-align: center;
 	line-height: 40px;
 	font-size: 20px;
@@ -737,6 +742,7 @@ form button .fas{
 	margin-right: 15px;
 	cursor: pointer;
   margin-top: 10px;
+  white-space: nowrap;
 }
 .social-icon-foot .fab{
 	width:40px;

@@ -41,7 +41,7 @@ p{
   white-space: nowrap;
 }
 .fill{
-  margin-left: -20px;
+  margin-left: -10px;
 }
 .fit{
   margin-left: 140px;
@@ -612,6 +612,7 @@ h5{
 .section-grid{
   /* padding: 40px; */
 }
+
 
 
 

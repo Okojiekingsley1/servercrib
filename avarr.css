@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 body{
     background:;
@@ -17,6 +16,7 @@ body{
   height: 50px;
   padding: 50px;
   width: 100%;
+  font-family: arial;
 }
 @media only screen and (max-width:414px){
   .infoparent{

@@ -19,7 +19,19 @@ body{
   height: 50px;
   padding: 50px;
   width: 100%;
-  
+}
+@media only screen and (max-width:414px){
+  .infoparent{
+    visibility: visible;
+  }
+  .fill{
+    visibility: visible;
+  }
+}
+@media screen and (max-width:900px){
+  .contain{
+    display: block;
+  }
 }
 img{
   width: 200px;
@@ -446,6 +458,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 .ten{
   margin-left: 150px;
   width: 600px;
+  border-radius: 30px;
 }
 /* next */
 .contain-p{

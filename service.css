@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
 *{
-    font-family: "Roboto";
+    font-family: arial;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,6 +41,7 @@ p{
 }
 .fill{
   margin-left: -20px;
+  font-family: arial;
 }
 .fit{
   margin-left: 140px;

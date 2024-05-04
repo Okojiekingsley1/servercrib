@@ -461,14 +461,14 @@ img{
   display: flex;
 }
 .all-hey{
-  margin-left: 40px;
+  margin-left: 5px;
 }
 .top{
   display: flex;
 }
 .dig{
   font-weight: bolder;
-  margin-left:50px;
+  margin-left:60px;
   font-size: 25px;
   color: gray;
   white-space: nowrap;
@@ -501,21 +501,21 @@ img{
   }
 .digi{
   font-weight: bolder;
-  margin-left:130px;
+  margin-left:145px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
 }
 .dipi{
   font-weight: bolder;
-  margin-left:250px;
+  margin-left:270px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
 }
 .dibi{
   font-weight: bolder;
-  margin-left:200px;
+  margin-left:225px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
@@ -529,24 +529,25 @@ img{
 }
 .digit{
   font-weight: bolder;
-  margin-left: 120px;
+  margin-left: 130px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
 }
 .dipit{
   font-weight: bolder;
-  margin-left: 115px;
+  margin-left: 160px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
 }
 .dibit{
   font-weight: bolder;
-  margin-left: 250px;
+  margin-left: 260px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .all-words{
   display: flex;
@@ -556,6 +557,7 @@ img{
   font-family: arial;
   white-space: nowrap;
   margin-bottom: 70px;
+  margin-top: 20px;
   
   
 }

@@ -1,10 +1,8 @@
 
 *{
-    font-family: arial;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
 }
 body{
     background:;
@@ -19,7 +17,6 @@ body{
   height: 50px;
   padding: 50px;
   width: 100%;
-  font-family: arial;
 }
 img{
   width: 200px;
@@ -376,6 +373,13 @@ transition: opacity 0.3s ease; /* Apply transition */
   font-size: 70px;
   font-weight: bold;
   margin-top:50px;
+}
+@media screen and (max-width:992px){
+  .company{
+  font-family: arial;
+  margin-left: 120px;
+  font-size: 70px;
+}
 }
 .side-text{
   font-size: 22px;

@@ -207,6 +207,37 @@ p{
     right: 0;
     box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width:992px){
+  .hamburger,
+  .toggle-menu{
+      display: block;
+  }
+  .header{
+      padding: 10px 20px;
+  }
+  .menu{
+      justify-content: start;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 700px;
+      background: green;
+      width: 900px;
+      height: 100%;
+      padding-top: 65px;
+      
+  }
+  .menu li{
+      width: 100%;
+  }
+  .menu li a,
+  .menu li a:hover{
+      padding: 30px;
+      font-size: 24px;
+      box-shadow: 0 1px 0 rgba(225, 225, 225, 0.1) inset;
+  }
+}
 
 
 /*dropdown*/

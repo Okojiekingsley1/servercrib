@@ -413,7 +413,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 	text-align: center;
   margin-right: 150px;
   margin-bottom: 200px;
-  margin-left: -130px;
+  margin-left: -5px;
 }
 .prat{
 	color: black;
@@ -423,7 +423,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 .text-2{
   width: 500px;
   height: 500px;
-  margin-left: -120px;
+  margin-left: -100px;
 
 }
 .image-link {

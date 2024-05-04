@@ -655,10 +655,12 @@ h5{
 }
 .trust-par{
   font-size: 15px;
+  white-space: nowrap;
 }
 .trust-p{
   font-size: 15px;
   margin-left: 170px;
+  white-space: nowrap;
 }
 .sol-btn{
   color: white;

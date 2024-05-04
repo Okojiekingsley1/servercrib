@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
 *{
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,8 +8,6 @@
 body{
     background:;
 }
-
-
 .infoparent{
   display: flex;
   align-items: center;
@@ -17,6 +16,20 @@ body{
   height: 50px;
   padding: 50px;
   width: 100%;
+  font-family: arial;
+}
+@media only screen and (max-width:414px){
+  .infoparent{
+    visibility: visible;
+  }
+  .fill{
+    visibility: visible;
+  }
+}
+@media screen and (max-width:900px){
+  .contain{
+    display: block;
+  }
 }
 img{
   width: 200px;
@@ -39,7 +52,6 @@ p{
 }
 .fill{
   margin-left: -20px;
-  font-family: arial;
 }
 .fit{
   margin-left: 140px;
@@ -375,11 +387,8 @@ transition: opacity 0.3s ease; /* Apply transition */
   margin-top:50px;
 }
 @media screen and (max-width:992px){
-  .company{
   font-family: arial;
   margin-left: 120px;
-  font-size: 70px;
-}
 }
 .side-text{
   font-size: 22px;
@@ -404,7 +413,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 	text-align: center;
   margin-right: 150px;
   margin-bottom: 200px;
-  margin-left: 130px;
+  margin-left: -130px;
 }
 .prat{
 	color: black;
@@ -414,7 +423,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 .text-2{
   width: 500px;
   height: 500px;
-  margin-left: -70px;
+  margin-left: -120px;
 
 }
 .image-link {

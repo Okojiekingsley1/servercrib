@@ -499,10 +499,20 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
+@media (max-width:576px)  {
+  .containers{
+    display: block;
+    justify-content: space-between;
+  }
+  .contain{
+    margin-bottom: 30px;
+  }
+}
 .contain{
   background-color: green;
   padding: 50px;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 .intro{
   color: gray;
@@ -523,8 +533,9 @@ img {
 .introduction{
   margin-left: 70px;
   border-bottom-left-radius: 20px;
-  border-left-color: #4527a0;
+  border-left-color: green;
 }
+
 .intro-btn{
   height: 50px;
   width: 200px;
@@ -539,10 +550,21 @@ img {
   background-color: gray;
   padding: 50px;
 }
+@media (max-width:576px)  {
+  .introd{
+    display: block;
+  }
+}
 .ten{
   margin-left: 150px;
   width: 600px;
   border-radius: 30px;
+}
+@media (max-width:576px)  {
+  .ten{
+    margin-left: 0;
+    margin-top: 30px;
+  }
 }
 /* next */
 .contain-p{
@@ -578,6 +600,11 @@ h2{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+}
+@media (max-width:576px)  {
+  .box{
+    display: block;
+  }
 }
 .card{
 	height: 500px;
@@ -684,6 +711,18 @@ h5{
   margin-left: 350px;
   font-family: arial;
 }
+@media (max-width:576px)  {
+  .solution{
+    display: block;
+    margin-left: 50px;
+  }
+  .it-sol{
+    margin-left: 50px;
+  }
+  .sol-btn{
+    margin-left: 0;
+  }
+}
 .trust-par{
   font-size: 15px;
   white-space: nowrap;
@@ -734,6 +773,19 @@ footer{
 	padding: 70px 0 90px;
 	font-size: 13px;
 	line-height: 20px;
+}
+@media (max-width:996px)  {
+  .left-foot{
+    display: block;
+    margin-left: 20px;
+  }
+  .policy{
+    display: block;
+    margin-left: 70px;
+  }
+  .copy{
+    display: block;
+  }
 }
 .footer{
 	background: green;

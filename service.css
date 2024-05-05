@@ -386,6 +386,11 @@ transition: opacity 0.3s ease; /* Apply transition */
   font-weight: bold;
   margin-top:50px;
 }
+@media (max-width:576px)  {
+  .company{
+    margin-left: 5px;
+  }
+}
 @media screen and (max-width:992px){
   font-family: arial;
   margin-left: 120px;
@@ -400,7 +405,17 @@ transition: opacity 0.3s ease; /* Apply transition */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+}
+@media (max-width:576px)  {
+  .boxe{
+    display: block;
+  }
+  .prat{
+    margin-left: 10px;
+  }
+  .h3{
+    margin-left: 0;
+  }
 }
 .carde{
 	height: 150px;
@@ -408,7 +423,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 	padding: 15px 370px;
 	background: lightgray;
   border-left: solid;
-  border-left-color: blue;
+  border-left-color: green;
 	position: relative;
 	text-align: center;
   margin-right: 150px;
@@ -692,8 +707,13 @@ form button .fas{
   margin-top: 10px;
   white-space: nowrap;
 }
-.social-icon-foot {
+.social-icons-foot {
   margin-right: 40px;
+}
+@media (max-width:576px)  {
+  .social-icons .fab{
+    display: block;
+  }
 }
  hr{
 	width: 90%;
@@ -720,6 +740,16 @@ form button .fas{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+@media (max-width:576px)  {
+  .left-foot{
+    display: block;
+  }
+  .policy{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }
 .fa{
   margin-left: 90px;

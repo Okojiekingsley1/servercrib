@@ -376,6 +376,7 @@ transition: opacity 0.3s ease; /* Apply transition */
     height: 40px;
 }
 /*end of head*/
+
 /*body*/
 
 .company{
@@ -387,6 +388,12 @@ transition: opacity 0.3s ease; /* Apply transition */
 	margin-bottom: 20px;
   margin-left: 500px;
 }
+@media (max-width:576px)  {
+  .company{
+    margin-left: 5px;
+  }
+}
+
 .side-text{
   font-family: arial;
   font-size: 20px;
@@ -411,6 +418,11 @@ transition: opacity 0.3s ease; /* Apply transition */
   margin-right: 150px;
   margin-bottom: 50px;
   margin-left: 90px;
+}
+@media (max-width:576px)  {
+  .carde{
+    padding-right: 90px;
+  }
 }
 .prat{
 	color: black;
@@ -465,6 +477,11 @@ h3{
 .para-with{
 	display: flex;
 }
+@media (max-width:576px)  {
+  .para-with{
+    margin-left: -100px;
+  }
+}
 .hand{
 	height: 500px;
 	width: 450px;
@@ -505,6 +522,14 @@ h3{
   letter-spacing: 1px;
   font-family: arial;
 }
+@media (max-width:576px)  {
+  .client{
+    margin-left: 30px;
+  }
+  .message-client{
+    margin-left: 30px;
+  }
+}
 .imessage{
 	display: block;
 }
@@ -528,7 +553,6 @@ h3{
 	min-height: 300px;
   height: 100px;
   background: lightgray;
-
 }
 .card{
 	height: 200px;

@@ -47,7 +47,7 @@ p{
 }
 
 .fi{
-  margin-left: 120px;
+  margin-left: 115px;
   white-space: nowrap;
 }
 .fill{
@@ -232,7 +232,7 @@ p{
       position: fixed;
       top: 0;
       right: 700px;
-      background: green;
+      background: #4527a0;
       width: 900px;
       height: 100%;
       padding-top: 65px;
@@ -426,14 +426,14 @@ transition: opacity 0.3s ease; /* Apply transition */
   border-left-color: green;
 	position: relative;
 	text-align: center;
-  /* gap: 30px; */
+  margin-right: 150px;
   margin-bottom: 200px;
   margin-left: -5px;
 }
 .prat{
 	color: black;
   white-space: nowrap;
-  margin-left: -300px; 
+  margin-left: -300px;
 }
 .text-2{
   width: 500px;
@@ -474,24 +474,18 @@ img{
 .hey{
   margin-top: 150px;
   display: flex;
-}
-.image:hover{
-  opacity: 0.5;
-  transition: opacity 0.3s;
-}
-.all-hey:hover .hey{
-  opacity: 1;
+  align-items: center;
+  justify-content: center;
 }
 .all-hey{
-  margin-left: 35px;
-  cursor: pointer;
+  margin-left: -35px;
 }
 .top{
   display: flex;
 }
 .dig{
   font-weight: bolder;
-  margin-left:60px;
+  margin-left:90px;
   font-size: 25px;
   color: gray;
   white-space: nowrap;
@@ -499,7 +493,7 @@ img{
 }
   .dip{
     font-weight: bolder;
-    margin-left:55px;
+    margin-left:90px;
     font-size: 25px;
     color: gray;
     white-space: nowrap;
@@ -524,7 +518,7 @@ img{
   }
 .digi{
   font-weight: bolder;
-  margin-left:145px;
+  margin-left:125px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
@@ -552,7 +546,7 @@ img{
 }
 .digit{
   font-weight: bolder;
-  margin-left: 130px;
+  margin-left: 120px;
   font-size: 25px;
   color: gray;
   margin-top: 20px;
@@ -576,21 +570,20 @@ img{
   display: flex;
 }
 .pa{
-  margin-left: 50px;
+  margin-left: 90px;
   font-family: arial;
   white-space: nowrap;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
   margin-top: 20px;
-  
-  
 }
 .par{
-    margin-left: 80px;
+    margin-left: 50px;
     font-family: arial;
     white-space: nowrap;
+    margin-top: 10px;
 }
 .part{
-  margin-left: 60px;
+  margin-left: 40px;
   font-family: arial;
   white-space: nowrap;
 }

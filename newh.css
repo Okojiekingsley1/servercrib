@@ -411,7 +411,7 @@ transition: opacity 0.3s ease; /* Apply transition */
 
 .tony{
   border-left:  solid;
-  border-left-color: rgb(0, 0, 0);
+  border-left-color: green;
   line-height: 30px;
 }
 

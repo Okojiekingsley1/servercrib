@@ -37,7 +37,7 @@ p{
 }
 
 .fi{
-  margin-left: 120px;
+  margin-left: 110px;
   white-space: nowrap;
 }
 .fill{
@@ -369,6 +369,7 @@ footer{
 	padding: 70px 0 90px;
 	font-size: 13px;
 	line-height: 20px;
+  
 }
 .footer{
 	background: green;
@@ -376,7 +377,7 @@ footer{
 	font-size: 13px;
 	line-height: 20px;
   padding: 50px 0 50px;
-  margin-bottom: -100px;
+  margin-bottom: -50px;
   border-top-left-radius: 120px;
 }
 .row{

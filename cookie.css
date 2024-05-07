@@ -4,10 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-body{
-    background:;
+    font-family: arial;
 }
 
 
@@ -339,10 +336,13 @@ transition: opacity 0.3s ease; /* Apply transition */
 
 h1{
   font-weight: bolder;
-  font-weight: 40px;
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 40px;
+  margin-left: 500px;
+}
+.h1-p{
+  margin-left: 50px;
 }
 .update{
   font-weight: bold;
@@ -353,8 +353,7 @@ h1{
 }
 .p-update{
   font-size: 20px;
-  font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: arial;
 }
 
 
@@ -374,7 +373,8 @@ footer{
 	font-size: 13px;
 	line-height: 20px;
   padding: 50px 0 50px;
-  margin-bottom: -100px;
+  margin-bottom: -50px;
+  border-top-left-radius: 100px;
 }
 .row{
 	width: 85%;

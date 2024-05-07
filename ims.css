@@ -366,9 +366,11 @@ transition: opacity 0.3s ease; /* Apply transition */
     height: 40px;
 }
 /*end of head*/
+
+/* body */
 .hdn{
   margin-top: 50px;
-  margin-left: 120px;
+  margin-left: 100px;
   margin-bottom: 20px;
 }
 .hdn-page{
@@ -401,7 +403,8 @@ footer{
 	font-size: 13px;
 	line-height: 20px;
   padding: 50px 0 50px;
-  margin-bottom: -100px;
+  margin-bottom: -50px;
+  border-top-left-radius: 100px;
 }
 .row{
 	width: 85%;

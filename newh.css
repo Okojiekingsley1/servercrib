@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     background:;
@@ -378,15 +379,15 @@ transition: opacity 0.3s ease; /* Apply transition */
 /*end of head*/
 
 /*body*/
+/* marque */
+
 
 .company{
   font-family: arial;
-  margin-left: 40px;
   font-size: 70px;
   font-weight: bold;
-  margin-top:50px;
-	margin-bottom: 20px;
-  margin-left: 500px;
+	text-align: center;
+  padding:  3rem;
 }
 @media (max-width:576px)  {
   .company{
@@ -398,42 +399,34 @@ transition: opacity 0.3s ease; /* Apply transition */
   font-family: arial;
   font-size: 20px;
 }
-.boxe{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 
-}
 .carde{
-	height: 280px;
-	width: 245px;
-	padding: 10px 35px;
-	background: lightgray;
-  border-left: solid;
-  border-left-color: blue;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-  margin-right: 150px;
-  margin-bottom: 50px;
-  margin-left: 90px;
+  gap: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.tony{
+  border-left:  solid;
+  border-left-color: rgb(0, 0, 0);
+  line-height: 30px;
+}
+
+.stark{
+  text-align: justify;
+  width: 900px;
 }
 @media (max-width:576px)  {
   .carde{
     padding-right: 90px;
   }
 }
-.prat{
-	color: black;
-	font-size: 20px;
-	line-height: 27px;
-	margin-bottom: 35px;
-}
-.text{
-  margin-top: -40px;
-}
-.text-2{
+
+
+/* .text-2{
   font-family: roboto;
   line-height: 20px;
   margin-left: 120px;
@@ -444,48 +437,26 @@ h3{
   font-size: 28px;
   font-family: arial;
   text-decoration: none;
-}
+} */
 .serv{
   text-decoration: none;
 }
 .objective{
   font-size: 40px;
-  margin-bottom: 30px;
+  padding: 3rem;
   font-weight: bolder;
-  margin-left: 120px;
+  text-align: center;
 }
 
-.values{
-  font-size: 40px;
-  margin-bottom: 30px;
-  margin-top: -450px;
-  font-weight: bolder;
+.below-text-container-img{
+  display: flex;
+  margin: 0 3rem;
 }
-.list{
-  font-size: 15px;
-  font-weight: bold;
-  display: block;
-}
-.para{
-  font-family: arial;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: 130px;
-  letter-spacing: 1px;
-  
-}
-.para-with{
-	display: flex;
-}
-@media (max-width:576px)  {
-  .para-with{
-    margin-left: -100px;
-  }
-}
+
 .hand{
 	height: 500px;
 	width: 450px;
-	margin-left: 900px;
+	
 }
 .image{
   margin-bottom:50px;

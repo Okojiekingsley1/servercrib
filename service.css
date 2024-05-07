@@ -232,7 +232,7 @@ p{
       position: fixed;
       top: 0;
       right: 700px;
-      background: #4527a0;
+      background: green;
       width: 900px;
       height: 100%;
       padding-top: 65px;
@@ -426,14 +426,14 @@ transition: opacity 0.3s ease; /* Apply transition */
   border-left-color: green;
 	position: relative;
 	text-align: center;
-  margin-right: 150px;
+  /* gap: 30px; */
   margin-bottom: 200px;
   margin-left: -5px;
 }
 .prat{
 	color: black;
   white-space: nowrap;
-  margin-left: -300px;
+  margin-left: -300px; 
 }
 .text-2{
   width: 500px;
@@ -475,8 +475,16 @@ img{
   margin-top: 150px;
   display: flex;
 }
+.image:hover{
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.all-hey:hover .hey{
+  opacity: 1;
+}
 .all-hey{
-  margin-left: -35px;
+  margin-left: 35px;
+  cursor: pointer;
 }
 .top{
   display: flex;
